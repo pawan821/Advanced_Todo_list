@@ -126,7 +126,7 @@ function App() {
                 onClick={() => handleComplete(i)}
                 className={`bg-[#E67B27] px-4 rounded-xl 
                 shadow-[2px_2px_2px_0px_rgba(0,0,0,0.8)] 
-                active:shadow-[inset_2px_2px_2px_0px_rgba(0,0,0,0.8)]
+                active:shadow-[inset_2px_2px_2px_0px_rgba(0,0,0,0.7)]
                 ${t.completed ? 'line-through' : ''}`}>{t.completed ? "Completed" : "Complete"}</button>
             </div>
           </div>
