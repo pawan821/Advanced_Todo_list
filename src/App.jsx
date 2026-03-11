@@ -136,13 +136,13 @@ function App() {
   }
   return (
     <>
-      <main className="container w-screen h-screen" >
+      <main className="container md:w-screen h-screen" >
         <nav className="navbar w-screen h-16 mb-6 text-black text-2xl font-medium flex items-center justify-between px-10 shadow-[0px_3px_7px_5px_rgba(0,0,0,0.25)]">
           <h1 className="">TaskMaster</h1>
           <button className="px-2 rounded-full shadow-[1px_2px_3px_2px_rgba(0,0,0,0.3)]">B</button>
         </nav>
-        <div className="w-screen h-full flex justify-between px-4 ">
-          <div className="tasks w-2/5 h-135 shadow-[2px_3px_5px_5px_rgba(0,0,0,0.1)] rounded-2xl flex flex-col gap-2 p-4">
+        <div className="w-screen h-90 md:flex md:justify-between px-4 ">
+          <div className="tasks w-full md:w-2/5 h-135 shadow-[2px_3px_5px_5px_rgba(0,0,0,0.1)] rounded-2xl flex flex-col gap-2 p-4">
             <input
               className="bg-gray-100 p-2 rounded-xl"
               type="text"
@@ -165,8 +165,7 @@ function App() {
               </ul>
             </div>
           </div>
-          <div
-            className="add-task w-195 h-135 shadow-[2px_3px_5px_5px_rgba(0,0,0,0.1)] rounded-2xl flex flex-col gap-4 p-6">
+          <div className="add-task md:w-195 h-135 shadow-[2px_3px_5px_5px_rgba(0,0,0,0.1)] rounded-2xl flex flex-col gap-4 p-6">
             <h1 className="text-lg font-bold">Add New Task</h1>
             <div className="input">
               <label className="block">Task Name</label>
